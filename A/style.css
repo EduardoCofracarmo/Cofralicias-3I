@@ -1,0 +1,36 @@
+:root {
+    --font-family: Arial, Helvetica, sans-serif;
+    --primary-color: #322C2B;
+    --secondary-color: #AF826;
+    --emphasis-color: #803D3B;
+    --primary-bg-color: #E4C59E;
+}
+
+body {
+    background-color: var(--primary-bg-color);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+header {
+    font-family: var(--font-family);
+    background-color: var(--primary-color);
+    color: var(--emphasis-color);
+
+    padding: 1rem;
+}
+
+header h1 {
+    /* font-size: 3rem;
+    font-weight: bold; */
+    margin: 0;
+}
+
+main {
+    font-family: var(--font-family);
+    color: var(--primary-color)
+}
